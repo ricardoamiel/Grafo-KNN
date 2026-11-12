@@ -42,11 +42,3 @@ Entorno: Python 3.12 con torch y torchvision (CPU), networkx, scikit-learn, gens
 2. Ejecutar el notebook de principio a fin. La primera ejecución descarga unas 2400 imágenes en data; cada ejecución calcula los embeddings, los layouts y Node2Vec (unos 8 minutos en CPU) y vuelve a escribir las figuras en figs. Todas las semillas están fijas, así que los resultados se reproducen exactamente.
 
 La visualización (viz/index.html y su copia publicada docs/index.html) y el informe ya están construidos en el repositorio con los resultados de esta ejecución.
-
-## Publicar en GitHub Pages
-
-En el repositorio, ir a Settings, luego Pages, elegir Deploy from a branch, rama main y carpeta /docs. El archivo docs/.nojekyll hace que Pages sirva el HTML sin procesarlo. La página carga D3 desde cdnjs y lleva los datos y las miniaturas incrustados, así que no necesita nada más.
-
-## Datos
-
-H&M Personalized Fashion Recommendations, versión de Hugging Face einrafh/hnm-fashion-recommendations-data. Las imágenes y el CSV del catálogo no se versionan: se descargan con los pasos anteriores.
