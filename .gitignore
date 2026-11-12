@@ -1,0 +1,22 @@
+# Datos pesados que se descargan (ver README)
+data/
+articles.csv
+# Metadatos de descarga que crea huggingface_hub
+.cache/
+
+# Intermedio de la visualización: ya va incrustado en el HTML
+viz/datos_viz.json
+
+# Material del curso y notas personalesq
+Laboratorio_14*.docx
+
+# Python y Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Sistema y editores
+.DS_Store
+*~
+.~lock.*#
+
